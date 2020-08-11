@@ -1,0 +1,12 @@
+{
+	"name": "Ruby-Alpine",
+	"image": "ruby:2.5-alpine",
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/sh"
+	},
+
+	"extensions": [],
+
+	"postCreateCommand": "gem install mdl",
+}
