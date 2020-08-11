@@ -5,7 +5,7 @@
             "label": "Lint README.md",
             "type": "shell",
             "command": "mdl",
-            "args": ["README.md"],
+            "args": ["--style", "lint.rb", "README.md"],
             "problemMatcher": {
                 "owner": "markdown",
                 "fileLocation": ["relative", "${workspaceFolder}"],
