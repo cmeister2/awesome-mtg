@@ -1,7 +1,9 @@
 language: generic
+dist: xenial
+os: linux
 
 install:
     - gem install mdl
 
 script:
-    - mdl README.md
+    - mdl --style lint.rb README.md
