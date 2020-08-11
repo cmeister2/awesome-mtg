@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Lint README.md",
+            "type": "shell",
+            "command": "mdl",
+            "args": ["README.md"],
+            "problemMatcher": {
+                "owner": "markdown",
+                "fileLocation": ["relative", "${workspaceFolder}"],
+                "pattern": {
+                  "regexp": "^(.*):(\\d+): MD\\d+ (.*)$",
+                  "file": 1,
+                  "location": 2,
+                  "message": 3
+                }
+              }
+        }
+    ]
+}
