@@ -1,6 +1,6 @@
 {
 	"name": "Ruby-Alpine",
-	"image": "ruby:2.7-alpine",
+	"image": "ruby:3.4-alpine",
 
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/sh"
